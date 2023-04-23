@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Diva Pizza</title>
+
+
+
+  <link href="Account.css" rel="stylesheet" type="text/css" />
+  <link href="Accountmain.css" rel="stylesheet" type="text/css" />
+
+  <link href="R2.jpg" rel="stylesheet" type="text/css" />
+
+  <style>
+    body {
+      background-color: rgb(113, 113, 75);
+    }
+
+    #sub {
+      margin-bottom: 25px;
+    }
+
+    h3 {
+      margin-top: 0px;
+    }
+  </style>
+  <h1><img src="diva-.jpg" alt="Italian Food" width="100" hight="50" /></h1>
+
+</head>
+
+
+<body>
+
+
+
+  <div>
+    <ul>
+
+      <h2>
+        <a href="Home.html">Home</a>
+
+      </h2>
+      <h2>
+        <a href="Online Order.html">Online Order</a>
+      </h2>
+
+    </ul>
+
+  </div>
+
+  <h3><em>THANK YOU FOR CHOSING US</h3>
+
+  <form name="registerForm" id="registerForm" action="RegisterScrip.php"></form>
+
+  <fieldset id="AddressOption">
+    <legend>Address</legend>
+
+    <label class="Optionlable">Home:
+      <input type="radio" id="hometype" name="addressType" value="home" />
+    </label>
+
+    <label class="Optionlable">Business:
+      <input type="radio" id="bustype" name="addressType" value="business" />
+    </label>
+  </fieldset>
+
+
+  <fieldset id="contact">
+    <legend>Your Information</legend>
+
+    <div id="d1">
+      <label class="lableblock">First Name:<span>*</span>
+        <input type="text" id="fname" />
+      </label>
+
+      <label class="lableblock">Last Name:<span>*</span>
+        <input type="text" id="lname" />
+      </label>
+
+      <label class="lableblock">Phone:
+        <input type="text" id="Phone" />
+      </label>
+
+      <label class="lableblock"> Street Address:<span>*</span>
+        <input type="text" id="sadd" />
+      </label>
+    </div>
+
+
+    <label class="indenlable"> City:<span>*</span>
+      <input type="text" id="City" />
+    </label>
+
+    <label class="indenlable"> State:<span>*</span>
+      <input type="text" id="State" maxlength="2" />
+    </label>
+
+    <label class="indenlable"> ZIP:<span>*</span>
+      <input type="text" id="ZIP" maxlength="10" />
+    </label>
+
+
+  </fieldset>
+
+
+
+  <fieldset id="Donation">
+    <legend>Account Information</legend>
+
+    <label class="donationblock">Password:<span>*</span>
+      <input type="text" id="donationamount" />
+    </label>
+    <label class="donationblock">Retry Pass:<span>*</span>
+      <input type="text" id="donationamount" />
+    </label>
+
+    <label class="donationblock">Credit Card:<span>*</span>
+      <select name="cardType" id="cardType">
+        <optgroup label="Choose Your card">
+          <option>American Express</option>
+          <option>Master Card</option>
+          <option>Visa</option>
+        </optgroup>
+      </select></label>
+
+    <label class="donationblock">Cardholder Name:<span>*</span>
+      <input type="text" id="cardholder" />
+    </label>
+
+    <label class="donationblock">Card Number:<span>*</span>
+      <input type="text" id="cnumber" />
+    </label>
+
+    <label class="donationblock">Expiration Date:<span>*</span>
+      <select name="month" id="month">
+        <optgroup label="Choose Your card">
+          <option>January(01)</option>
+          <option>February(02)</option>
+          <option>March(03)</option>
+          <option>April(04)</option>
+          <option>May(05)</option>
+          <option>june(06)</option>
+          <option>July(07)</option>
+          <option>Audust(08)</option>
+          <option>September(09)</option>
+          <option>October(10)</option>
+          <option>November(11)</option>
+          <option>December(12)</option>
+        </optgroup>
+      </select>
+      <select name="year" id="year">
+        <optgroup label="Choose Your card">
+          <option>2026</option>
+          <option>2025</option>
+          <option>2024</option>
+          <option>2023</option>
+          <option>2022</option>
+        </optgroup>
+      </select></label>
+    <div>
+      <fieldset id="volunteered">
+        <legend>This is a first time that I viste you page</legend>
+
+        <label class="OptionlAble">Yes:
+          <input type="radio" id="hometype" name="addressType" value="home" />
+        </label>
+
+        <label class="OptionlAble">No:
+          <input type="radio" id="bustype" name="addressType" value="business" />
+        </label>
+      </fieldset>
+    </div>
+
+
+  </fieldset>
+  <fieldset id="feedback">
+    <legend>Feedback</legend>
+    <label class="labelfeedback"><input type="checkbox" id="message" name="message" value="yes" />
+      Send me information about Diva Promotions & offers. </label>
+
+    <label class="labelfeedback"> Comments:
+      <textarea name="comment" id="comment" rows="5" cols="50">
+       </textarea>
+    </label>
+  </fieldset>
+
+
+  <div id="sub">
+    <input type="submit" value="submit Donation" />
+    <input type="reset" value="Cancel" />
+
+  </div>
+
+
+
+
+  <footer>
+    <address>
+      Diva pizza &nbsp;&#9728;&nbsp; Verdun &amp;
+      &nbsp;&#9728;&nbsp; 2025 Highway &nbsp;&#9728;&nbsp; Council Bluffs,
+      IA &nbsp;&nbsp; 51503
+    </address>
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+/*
+   New Perspectives on HTML and XHTML 5th Edition
+   Tutorial 6
+   Review Assignment
+
+   Volunteer Form Style Sheet
+   Author: ALI REZAEI STUDENT ID: 2295243
+   Date:  2022/11/08 
+
+   Filename:         forms.css
+   Supporting Files: none
+
+*/
+h3{font-size: 1.5em;display: block;height: 15PX;text-align: center;
+   color: rgb(47, 97, 97);}
+
+
+#AddressOption{width: 20%;margin-left:10%;}
+
+#contact{width: 80%;height: 80px;margin-top: 20px;margin-left: 10%;}
+
+#Donation{margin-top: 30px;height:180px;width: 80%;margin-left: 10%;}
+
+#volunteered{margin-top: 30px; width: 50%;}
+
+#feedback{width: 50%;margin-left: 10%;}
+
+#sub{float: right;margin-right:  100px;}
